@@ -116,7 +116,8 @@
             "SemSearch_LS-3",
             "INEX_XER-62",
             "INEX_XER-125",
-            "INEX_XER-74"
+            "INEX_XER-74",
+			"SemSearch_LS-43"
         ]
     },
     "1": {
@@ -236,7 +237,8 @@
             "SemSearch_LS-3",
             "SemSearch_LS-21",
             "INEX_XER-125",
-            "INEX_XER-74"
+            "INEX_XER-74",
+			"SemSearch_LS-43"
         ]
     },
     "2": {
@@ -356,7 +358,8 @@
             "SemSearch_LS-3",
             "SemSearch_LS-21",
             "INEX_XER-62",
-            "INEX_XER-74"
+            "INEX_XER-74",
+			"SemSearch_LS-43"
         ]
     },
     "3": {
@@ -476,7 +479,8 @@
             "SemSearch_LS-3",
             "SemSearch_LS-21",
             "INEX_XER-62",
-            "INEX_XER-125"
+            "INEX_XER-125",
+			"SemSearch_LS-43"
         ]
     },
     "4": {
@@ -502,7 +506,8 @@
             "INEX_XER-65",
             "INEX_XER-147",
             "SemSearch_LS-24",
-            "SemSearch_LS-3"
+            "SemSearch_LS-3",
+			"SemSearch_LS-43"
         ],
         "training": [
             "TREC_Entity-18",
