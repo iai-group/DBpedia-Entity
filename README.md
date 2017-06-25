@@ -18,16 +18,33 @@ The queries of the first 3 categories are prefixed with their group name. The re
 
 ## Collection
 
-DBpedia-entity v2 is built based on [DBpedia 2015-10 version](http://wiki.dbpedia.org/Downloads2015-10). The collection can be found under `collection/v2` and is organized as follows:
+**DBpedia-entity v2** is built based on [DBpedia 2015-10 version](http://wiki.dbpedia.org/Downloads2015-10). The collection can be found under `collection/v2` and is organized as follows:
 
 - `queries-v2.txt`: 467 queries, where each line contains a queryID and query text. 
 - `queries-v2_stopped.txt`: The same queries, with removed stop patterns and punctuation marks. 
 - `qrels-v2.txt`: Relevance judgments in standard TREC format.
 - `folds/`: 5-folds of train-test queries to be used for cross-validation in supervised approaches. There exists a single file for each query category. If cross-validation is performed for all queries,  `folds/all_queries.json` should be used.
 
+This repository also contains the **DBpedia-entity v1** collection, which was built based on [DBpedia 3.7 version](http://wiki.dbpedia.org/data-set-37). The collection can be found under `collection/v1` and is organized similar to the v2 version. There are, however, 3 qrels file for DBpedia-entity v2:
+
+- `qrels-v1_37.txt`: The original qrels, based on DBpedia 3.7.
+- `qrels-v1_39.txt`: Qrels with updated entity IDs according to DBpedia 3.9.
+- `qrels-v1_2015_10.txt`: Qrels with updated entity IDs according to DBpedia 2015-10.
+
+
+
 ## Baselines runs
 
-The `runs` contains all the baseline presented in the paper in TREC runfile format. These correspond to the runs reported in Table 2 of the paper. The supervised methods are suffixed with `v1` and `v2` are trained based on Qrels v1 and v2, respectively. 
+The `runs` contains all the baseline presented in the paper in TREC runfile format. The following runs are made available under the `runs` folder:
+
+- `/v1`: The runs related to **DBpedia-entity v1**, reported in Table 2 of [2].
+- `/v2`: The runs related to **DBpedia-entity v2**, reported on the following table. 
+
+## Performance of baseline runs
+
+The results of the baseline runs for *DBpedia-entity v2*, broken down into query subtypes, are reported in the following table. We use NDCG at ranks 10 and 100:
+
+
 
 
 ## Citation
