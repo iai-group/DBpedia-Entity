@@ -13,7 +13,8 @@ The collection consists of a set of heterogeneous entity-bearing queries, catego
 - `SemSearch_ES`: Named named entity queries; e.g., "brooklyn bridge" or "08 toyota tundra." 
 - `INEX-LD`: IR-style keyword queries; e.g., “electronic music genres".
 - `ListSearch`: Queries that seek a particular list of entities, e.g., “Professional sports teams in Philadelphia”.
-- `QALD2`: Natural language questions; e.g., "Who is the mayor of Berlin?"
+- `QALD2`: Natural language questions; e.g., "Who is the mayor of Berlin?"
+
 The queries of the first 3 categories are prefixed with their group name. The rest of the queries are categorized as *ListSearch* queries.
 
 ## Collection
@@ -42,10 +43,10 @@ The `runs` contains all the baseline presented in the paper in TREC runfile form
 
 ## Performance of baseline runs
 
-The results of the baseline runs for *DBpedia-entity v2*, broken down into query subtypes, are reported in the following table. We use NDCG at ranks 10 and 100:
+The results of the baseline runs for *DBpedia-entity v2* with respect to NDCG at ranks 10 and 100 are reported in the following table.
 
 
-
+![alt text](https://github.com/iai-group/DBpedia-Entity/blob/master/results_table.png)
 
 ## Citation
 
