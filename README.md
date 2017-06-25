@@ -44,7 +44,7 @@ The `runs` contains all the baseline presented in the paper in TREC runfile form
 ## Performance of baseline runs
 
 The results of the baseline runs for *DBpedia-entity v2* with respect to NDCG at ranks 10 and 100 are reported in the following table.
-
+Any new run on DBpedia-entity v2 may be compared to these results.
 
 ![alt text](https://github.com/iai-group/DBpedia-Entity/blob/master/results_table.png)
 
