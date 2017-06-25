@@ -75,6 +75,6 @@ We Thank Saeid Balaneshin, Jan R. Benetka, Heng Ding, Dario Garigliotti, Mehedi 
 In case of questions, feel free to contact <faegheh.hasibi@ntnu.no> or <krisztian.balog@uis.no>.
 
 ----------------
-[1] F. Hasibi, F. Nikolaev, C. Xiong, K. Balog, S. E. Bratsberg, A. Kotov, and J. Callan. *“A Test Collection for Entity Search in DBpedia”*, In proceedings of 436th international ACM SIGIR conference on Research and development in Information Retrieval (SIGIR ’13), pages 737-740,  2013.
+[1] K. Balog and R. Neumayer. *“A Test Collection for Entity Search in DBpedia”*, In proceedings of 436th international ACM SIGIR conference on Research and development in Information Retrieval (SIGIR ’13), pages 737-740,  2013.
 
 [2] F. Hasibi, F. Nikolaev, C. Xiong, K. Balog, S. E. Bratsberg, A. Kotov, and J. Callan. *“DBpedia-Entity v2: A Test Collection for Entity Search”*, In proceedings of 40th ACM SIGIR conference on Research and Development in Information Retrieval (SIGIR ’17),  2017.
