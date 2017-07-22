@@ -1,19 +1,15 @@
 # DBpedia-entity
 
-DBpedia-entity is a standard test collection for entity search, which has been is first released as  *(DBpedia-entity v1)* [1], and is further updated as *(DBpedia-entity v2)* in:
-
-`Faegheh Hasibi, Fedor Nikolaev, Chenyan Xiong, Krisztian Balog, Kotov Alexander, Svein Erik Bratsberg, and Jamie Callan. 2017. DBpedia-Entity v2: A Test Collection for Entity Search. In Proceedings of the 40th international ACM SIGIR conference on Research and development in Information Retrieval (SIGIR ’17).`
-
-This repository contains this collection, baseline runs, and other details about the DBpedia dump and indexing.
+DBpedia-entity is a standard test collection for entity search, which has been first released as  *DBpedia-entity v1* [1], and is further updated as *DBpedia-entity v2* [2]. This repository contains this collection, baseline runs, and other details about the DBpedia dump and index.
 
 ## Queries
 
 The collection consists of a set of heterogeneous entity-bearing queries, categorized into four groups:
 
-- `SemSearch_ES`: Named named entity queries; e.g., "brooklyn bridge" or "08 toyota tundra." 
-- `INEX-LD`: IR-style keyword queries; e.g., “electronic music genres".
-- `ListSearch`: Queries that seek a particular list of entities, e.g., “Professional sports teams in Philadelphia”.
+- `SemSearch_ES`: Named entity queries; e.g., "brooklyn bridge" or "08 toyota tundra." 
+- `INEX-LD`: IR-style keyword queries; e.g., "electronic music genres".
 - `QALD2`: Natural language questions; e.g., "Who is the mayor of Berlin?"
+- `ListSearch`: Queries that seek a particular list of entities; e.g., "Professional sports teams in Philadelphia".
 
 The queries of the first 3 categories are prefixed with their group name. The rest of the queries are categorized as *ListSearch* queries.
 
@@ -24,27 +20,21 @@ The queries of the first 3 categories are prefixed with their group name. The re
 - `queries-v2.txt`: 467 queries, where each line contains a queryID and query text. 
 - `queries-v2_stopped.txt`: The same queries, with removed stop patterns and punctuation marks. 
 - `qrels-v2.txt`: Relevance judgments in standard TREC format.
-- `folds/`: 5-folds of train-test queries to be used for cross-validation in supervised approaches. There exists a single file for each query category. If cross-validation is performed for all queries,  `folds/all_queries.json` should be used.
+- `folds/`: 5-folds of train-test queries for each query subset, to be used for cross-validation in supervised approaches. If cross-validation is performed for all queries,  `folds/all_queries.json` should be used.
 
-This repository also contains the **DBpedia-entity v1** collection, which was built based on [DBpedia 3.7 version](http://wiki.dbpedia.org/data-set-37). The collection can be found under `collection/v1` and is organized similar to the v2 version. There are, however, 3 qrels file for DBpedia-entity v2:
+This repository also contains the **DBpedia-entity v1** collection, which was built based on [DBpedia 3.7 version](http://wiki.dbpedia.org/data-set-37). The collection can be found under `collection/v1` and is organized similar to the v2 version. There are, however, 3 qrels file for DBpedia-entity v1:
 
 - `qrels-v1_37.txt`: The original qrels, based on DBpedia 3.7.
 - `qrels-v1_39.txt`: Qrels with updated entity IDs according to DBpedia 3.9.
 - `qrels-v1_2015_10.txt`: Qrels with updated entity IDs according to DBpedia 2015-10.
 
 
-
 ## Baselines runs
 
-The `runs` contains all the baseline presented in the paper in TREC runfile format. The following runs are made available under the `runs` folder:
+The `runs` folder contains all the baseline runs related to this collection in TREC format. The following runs are made available:
 
 - `/v1`: The runs related to **DBpedia-entity v1**, reported in Table 2 of [2].
-- `/v2`: The runs related to **DBpedia-entity v2**, reported on the following table. 
-
-## Performance of baseline runs
-
-The results of the baseline runs for *DBpedia-entity v2* with respect to NDCG at ranks 10 and 100 are reported in the following table.
-Any new run on DBpedia-entity v2 may be compared to these results.
+- `/v2`: The runs related to **DBpedia-entity v2**, reported in the folowing table. These runs are compared with respect to NDCG at ranks 10 and 100. Any new run on DBpedia-entity v2 has to be compared to these results.
 
 ![alt text](https://github.com/iai-group/DBpedia-Entity/blob/master/results_table.png)
 
@@ -66,7 +56,7 @@ Please also include [http://tiny.cc/dbpedia-entity.](http://tiny.cc/dbpedia-enti
 
 ## Acknowledgment
 
-This research was supported by Norwegian Research Council, National Science Foundation (NSF) grant IIS-1422676, Google Faculty Research Award, and Allen Institute for Artificial Intelligence Student Fellowship.
+This research was partialy supported by Norwegian Research Council, National Science Foundation (NSF) grant IIS-1422676, Google Faculty Research Award, and Allen Institute for Artificial Intelligence Student Fellowship.
 We Thank Saeid Balaneshin, Jan R. Benetka, Heng Ding, Dario Garigliotti, Mehedi Hasan, Indira Kurmantayeva, and Shuo Zhang for their help with creating relevance judgements. 
 
 
