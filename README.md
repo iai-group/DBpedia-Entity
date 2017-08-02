@@ -52,7 +52,7 @@ If using this collection in a publication, please cite the following paper:
 }
 </pre>
 
-Please also include [http://tiny.cc/dbpedia-entity.](http://tiny.cc/dbpedia-entity.) as where the data is available in the citation.
+Please also include [http://tiny.cc/dbpedia-entity](http://tiny.cc/dbpedia-entity) as where the data is available in the citation.
 
 ## Acknowledgment
 
