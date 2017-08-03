@@ -1,6 +1,8 @@
 # DBpedia-Entity
 
-DBpedia-Entity is a standard test collection for entity search, which has been first released as  *DBpedia-Entity v1* [1], and is further updated as *DBpedia-Entity v2* [2]. This repository contains this collection, baseline runs, and other details about the DBpedia dump and index.
+DBpedia-Entity is a standard test collection for entity search, which has been first released as  *DBpedia-Entity v1* [1], and is further updated as *DBpedia-Entity v2* [2]. This repository contains the collection, baseline runs, and other details about the DBpedia dump and index.
+
+For detailed information, please check the DBpedia-Entity v2 [paper](http://hasibi.com/files/sigir2017-dbpedia_entity.pdf) and [poster](http://hasibi.com//files/posters/dbpedia-entity.pdf).
 
 ## Queries
 
