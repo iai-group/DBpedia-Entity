@@ -1,6 +1,6 @@
-# DBpedia-entity
+# DBpedia-Entity
 
-DBpedia-entity is a standard test collection for entity search, which has been first released as  *DBpedia-entity v1* [1], and is further updated as *DBpedia-entity v2* [2]. This repository contains this collection, baseline runs, and other details about the DBpedia dump and index.
+DBpedia-Entity is a standard test collection for entity search, which has been first released as  *DBpedia-Entity v1* [1], and is further updated as *DBpedia-Entity v2* [2]. This repository contains this collection, baseline runs, and other details about the DBpedia dump and index.
 
 ## Queries
 
@@ -15,14 +15,14 @@ The queries of the first 3 categories are prefixed with their group name. The re
 
 ## Collection
 
-**DBpedia-entity v2** is built based on [DBpedia 2015-10 version](http://wiki.dbpedia.org/Downloads2015-10). The collection can be found under `collection/v2` and is organized as follows:
+**DBpedia-Entity v2** is built based on [DBpedia 2015-10 version](http://wiki.dbpedia.org/Downloads2015-10). The collection can be found under `collection/v2` and is organized as follows:
 
 - `queries-v2.txt`: 467 queries, where each line contains a queryID and query text. 
 - `queries-v2_stopped.txt`: The same queries, with removed stop patterns and punctuation marks. 
 - `qrels-v2.txt`: Relevance judgments in standard TREC format.
 - `folds/`: 5-folds of train-test queries for each query subset, to be used for cross-validation in supervised approaches. If cross-validation is performed for all queries,  `folds/all_queries.json` should be used.
 
-This repository also contains the **DBpedia-entity v1** collection, which was built based on [DBpedia 3.7 version](http://wiki.dbpedia.org/data-set-37). The collection can be found under `collection/v1` and is organized similar to the v2 version. There are, however, 3 qrels file for DBpedia-entity v1:
+This repository also contains the **DBpedia-Entity v1** collection, which was built based on [DBpedia 3.7 version](http://wiki.dbpedia.org/data-set-37). The collection can be found under `collection/v1` and is organized similar to the v2 version. There are, however, 3 qrels file for DBpedia-Entity v1:
 
 - `qrels-v1_37.txt`: The original qrels, based on DBpedia 3.7.
 - `qrels-v1_39.txt`: Qrels with updated entity IDs according to DBpedia 3.9.
@@ -33,8 +33,8 @@ This repository also contains the **DBpedia-entity v1** collection, which was bu
 
 The `runs` folder contains all the baseline runs related to this collection in TREC format. The following runs are made available:
 
-- `/v1`: The runs related to **DBpedia-entity v1**, reported in Table 2 of [2].
-- `/v2`: The runs related to **DBpedia-entity v2**, reported in the folowing table. These runs are compared with respect to NDCG at ranks 10 and 100. Any new run on DBpedia-entity v2 has to be compared to these results.
+- `/v1`: The runs related to **DBpedia-Entity v1**, reported in Table 2 of [2].
+- `/v2`: The runs related to **DBpedia-Entity v2**, reported in the folowing table. These runs are compared with respect to NDCG at ranks 10 and 100. Any new run on DBpedia-Entity v2 has to be compared to these results.
 
 ![alt text](https://github.com/iai-group/DBpedia-Entity/blob/master/results_table.png)
 
