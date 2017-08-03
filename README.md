@@ -17,7 +17,7 @@ All queries are prefixed with the name of the originating benchmark.  `SemSearch
 
 ## Collection
 
-**DBpedia-Entity v2** is built based on [DBpedia version 2015-10 ](http://wiki.dbpedia.org/Downloads2015-10). The collection can be found under `collection/v2` and is organized as follows:
+**DBpedia-Entity v2** is built based on [DBpedia version 2015-10](http://wiki.dbpedia.org/Downloads2015-10). The collection can be found under `collection/v2` and is organized as follows:
 
 - `queries-v2.txt`: 467 queries, where each line contains a queryID and query text.
 - `queries-v2_stopped.txt`: The same queries, with removed stop patterns and punctuation marks.
@@ -44,13 +44,15 @@ The `runs` folder contains all the baseline runs related to this collection in T
 
 If using this collection in a publication, please cite the following paper:
 <pre>
-@inproceedings{Hasibi:2017:DTC,
-	author = {Hasibi, Faegheh and Nikolaev, Fedor and Xiong, Chenyan and Balog, Krisztian and Bratsberg, Svein Erik, Kotov, Alexander and Callan, Jamie},
-	booktitle = {Proceedings of the 40th international ACM SIGIR conference on Research and development in Information Retrieval},
-	title = {DBpedia-Entity v2: A Test Collection for Entity Search},
-	series = {SIGIR '17},
-	year = {2017},
-   publisher = {ACM}
+@inproceedings{Hasibi:2017:DVT,
+ author =    {Hasibi, Faegheh and Nikolaev, Fedor and Xiong, Chenyan and Balog, Krisztian and Bratsberg, Svein Erik and Kotov, Alexander and Callan, Jamie},
+ title =     {DBpedia-Entity V2: A Test Collection for Entity Search},
+ booktitle = {Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+ series =    {SIGIR '17},
+ year =      {2017},
+ pages =     {1265--1268},
+ doi =       {10.1145/3077136.3080751},
+ publisher = {ACM}
 }
 </pre>
 
