@@ -61,6 +61,7 @@ The `runs` folder contains a set of baseline rankings ("runs") in TREC format:
 
 ## Related resources
 
+  - [Entity Summarization](https://github.com/iai-group/DynamicEntitySummarization-DynES): 100 query-entity pairs (evenly distributed among the four query subsets) and graded judments for their corresponding entity facts.
   - [Target type annotations](https://github.com/iai-group/sigir2017-query_types): The same set of queries is annotated with target query types using the DBpedia Ontology.
 
 
