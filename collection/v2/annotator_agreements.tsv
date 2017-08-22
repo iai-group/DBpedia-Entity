@@ -1,4 +1,4 @@
-query	entity	cs_confidence	expert_conf
+query	entity	cs_agr	expert_agr
 INEX_LD-2009022	<dbpedia:Afghan_cuisine>	0.4	-
 INEX_LD-2009022	<dbpedia:Akan_cuisine>	1.0	-
 INEX_LD-2009022	<dbpedia:Ambuyat>	1.0	-
