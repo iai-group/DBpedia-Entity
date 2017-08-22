@@ -39,6 +39,7 @@ The **DBpedia-Entity v2** collection can be found under `collection/v2` and is o
   - `queries-v2_stopped.txt`: The same queries, with stop patterns and punctuation marks removed.
   - `qrels-v2.txt`: Relevance judgments in standard TREC format.
   - `folds/`: Partitioning of queries for 5-fold cross validation. This is provided to make results directly comparable by using the same partitioning for supervised approaches. A separate file is provided for each query subset; if training is done over the set of all queries, use the `all_queries.json` file.
+  - `annotator_agreements.tsv`: Inter-annotator agreements between crowd workers (and expert annotators, if applicable) for each query-entity pair. The agreement scores are computed according to the Fleiss' kappa index (i.e., Eq (3) of [its Wikipedia article](https://en.wikipedia.org/wiki/Fleiss%27_kappa)).
 
 This repository also contains the **DBpedia-Entity v1** collection, which was built based on [DBpedia version 3.7](http://wiki.dbpedia.org/data-set-37). The collection can be found under `collection/v1` and is organized similar to the v2 version. There are, however, 3 qrels file for DBpedia-Entity v1:
 
