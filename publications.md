@@ -3,7 +3,7 @@ Publications
 
 A number of articles has been published based on the DBpedia-Entity collection. Below we list these articles.
 
-*Please inform us about your publication and we would be glad to add it to the this list!*
+***Please inform us about your publication and we would be glad to add it to the this list!***
 
 #### Entity search task:
 
