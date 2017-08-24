@@ -193,7 +193,7 @@ If you using this collection, please cite the following paper:
 
 If possible, please also include the [http://tiny.cc/dbpedia-entity](http://tiny.cc/dbpedia-entity) URL in your paper.
 
-## Acknowledgment
+## Acknowledgments
 
 This research was partially supported by the Norwegian Research Council, National Science Foundation (NSF) grant IIS-1422676, Google Faculty Research Award, and Allen Institute for Artificial Intelligence Student Fellowship.
 We Thank Saeid Balaneshin, Jan R. Benetka, Heng Ding, Dario Garigliotti, Mehedi Hasan, Indira Kurmantayeva, and Shuo Zhang for their help with creating relevance judgements.
