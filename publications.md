@@ -1,8 +1,9 @@
 Publications
 ============
 
-A number of articles has been published based on the DBpedia-Entity collection. Below we list these articles:
+A number of articles has been published based on the DBpedia-Entity collection. Below we list these articles.
 
+***<Please inform us about your publication and we would be glad to add it to the this list!>***
 
 #### Entity search task:
 
@@ -31,6 +32,5 @@ Learning to Rank for Entity Search"*, In Proceedings of the 39th International A
 - Darío Garigliotti, Faegheh Hasibi, and Krisztian Balog. 2017. *"Target Type Identification for Entity-Bearing Queries"*,  In proceedings of 40th ACM SIGIR conference on Research and Development in Information Retrieval (SIGIR ’17). 845-848.
 
  
-**Please inform us about your publication and we would be glad to add it to the above lists!**
   
  
