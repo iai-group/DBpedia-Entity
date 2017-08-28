@@ -4,7 +4,8 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <!-- <meta name="viewport" content="width=device-width,maximum-scale=2"> -->
+	<meta name="viewport" content="user-scalable = no">
     <meta name="description" content="{{ site.title | default: site.github.repository_name }} : {{ site.description | default: site.github.project_tagline }}">
 
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
@@ -15,14 +16,14 @@
   <body>
 
     <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="{{ site.github.repository_url }}">Download</a>
-		  <a id="coll_banner" href="{{ site.baseurl }}/collections">Related Collections</a>
-		  <a id="pub_banner" href="{{ site.baseurl }}/publications">Publications</a>
-
+    <div class="page-header">
+        <!-- <header class="inner"> -->
           <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+
+		  <a href="{{ site.github.repository_url }}" class="btn">Download</a>		  
+		  <a href="{{ site.baseurl }}/collections" class="btn">Related collections</a>
+		  <a href="{{ site.baseurl }}/publications" class="btn">Publications</a>
 
           <!-- {% if site.show_downloads %}
             <section id="downloads">
@@ -30,7 +31,7 @@
               <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
             </section>
           {% endif %} -->
-        </header>
+        <!-- </header> -->
     </div>
 
     <!-- MAIN CONTENT -->
