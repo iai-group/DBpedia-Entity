@@ -4,7 +4,7 @@
 The details of the DBpedia indcies used for generating the baseline runs of the DBpedia-Entity v2 collection (i.e., Table 2 of [1]) are described here.
 
 
-## DBpedia files
+### DBpedia files
 
 The following files from [DBpedia 2015-10 dump](http://downloads.dbpedia.org/2015-10/core-i18n/en/) are indexed:
 
@@ -22,7 +22,7 @@ The following files from [DBpedia 2015-10 dump](http://downloads.dbpedia.org/201
 - `short_abstracts_en.ttl`	
 - `transitive_redirects_en.ttl`
 
-## Index settings
+### Index settings
 
 - Entities without the following predicates are not indexed:
     * `<rdfs:comment>` 
@@ -30,7 +30,7 @@ The following files from [DBpedia 2015-10 dump](http://downloads.dbpedia.org/201
 - All predicate values with URIs are resolved by replacing "_" with space; e.g., the URI `http://dbpedia.org/resource/As_We_May_Think` becomes “as we may think”.
 
  
-## Index fields
+### Index fields
 
 The following fields are used for constructing the index,  following the general approach outlined in [2]. All fields listed below contain unique phrases.
 
@@ -44,7 +44,7 @@ The following fields are used for constructing the index,  following the general
 | Related entity names | URI relations of entity|  Similar to *Attributes* field, but *"o"* should be a URI. | |  
 
 
-## Group-specific settings
+### Group-specific settings
 
 The baseline runs of the DBpedia-Entity v2 collection [1] are generated using two indices, denoted as index *A* and *B*. These indices, built by two different research groups, share the above settings, but are different in the following aspects.
  
