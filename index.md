@@ -32,7 +32,7 @@ The following files from [DBpedia 2015-10 dump](http://downloads.dbpedia.org/201
  
 ## Index fields
 
-The following fields are used for constructing the index,  following the general approach outlined in [1]. All fields listed below contain unique phrases.
+The following fields are used for constructing the index,  following the general approach outlined in [2]. All fields listed below contain unique phrases.
 
 
 | Field | Description | Predicates | Notes |
@@ -61,7 +61,7 @@ The baseline runs of the DBpedia-Entity v2 collection [1] are generated using tw
  - Predicate URIs are resolved using `infobox_property_definitions_en.ttl` file. If a name for a predicate is not defined, a predicate is omitted.
 
  
-## References
+----------------
  
 [1] Faegheh Hasibi, Fedor Nikolaev, Chenyan Xiong, Krisztian Balog, Svein Erik Bratsberg, Alexander Kotov, and Jamie Callan. 2017. “DBpedia-Entity v2: A Test Collection for Entity Search”, In proceedings of 40th ACM SIGIR conference on Research and Development in Information Retrieval (SIGIR ’17). 1265-1268.
 
