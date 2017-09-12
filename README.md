@@ -39,7 +39,7 @@ The **DBpedia-Entity v2** collection can be found under `collection/v2` and is o
   - `queries-v2_stopped.txt`: The same queries, with stop patterns and punctuation marks removed.
   - `qrels-v2.txt`: Relevance judgments in standard TREC format.
   - `folds/`: Partitioning of queries for 5-fold cross validation. This is provided to make results directly comparable by using the same partitioning for supervised approaches. A separate file is provided for each query subset; if training is done over the set of all queries, use the `all_queries.json` file.
-  - `annotator_agreements.tsv`: Inter-annotator agreements between crowd workers (and expert annotators, if applicable) for each query-entity pair. The agreement scores are computed according to the Fleiss' kappa index (i.e., Eq (3) of [its Wikipedia article](https://en.wikipedia.org/wiki/Fleiss%27_kappa)). This information may be used as a proxy for query difficulty.
+  - `annotator_agreements.tsv`: Inter-annotator agreements between crowd workers (and expert annotators, if applicable) for each query-entity pair. The agreement scores are computed according to the Fleiss' kappa index (i.e., Eq (3) of [its Wikipedia article](https://en.wikipedia.org/wiki/Fleiss%27_kappa)).
 
 This repository also contains the **DBpedia-Entity v1** collection, which was built based on [DBpedia version 3.7](http://wiki.dbpedia.org/data-set-37). The collection can be found under `collection/v1` and is organized similar to the v2 version. There are, however, 3 qrels file for DBpedia-Entity v1:
 
@@ -50,7 +50,7 @@ This repository also contains the **DBpedia-Entity v1** collection, which was bu
 
 ## Baseline rankings
 
-The `runs` folder contains a set of baseline rankings ("runs") in TREC format:
+The `runs` folder contains a set of baseline rankings ("runs") in TREC format (the details of theindices used for generating these runs are described [here](index.rst)).
 
 - `/v1`: The runs related to **DBpedia-Entity v1**, reported in Table 2 of the paper [2].
 - `/v2`: The runs related to **DBpedia-Entity v2**, reported in the table below.  The evaluation metric is NDCG (Normalized Discounted Cumulative Gain) at ranks 10 and 100.  New retrieval systems, evaluated using DBpedia-Entity v2, are supposed to be compared against these results.
@@ -196,7 +196,7 @@ If possible, please also include the [http://tiny.cc/dbpedia-entity](http://tiny
 ## Acknowledgments
 
 This research was partially supported by the Norwegian Research Council, National Science Foundation (NSF) grant IIS-1422676, Google Faculty Research Award, and Allen Institute for Artificial Intelligence Student Fellowship.
-We thank Saeid Balaneshin, Jan R. Benetka, Heng Ding, Dario Garigliotti, Mehedi Hasan, Indira Kurmantayeva, and Shuo Zhang for their help with creating relevance judgements.
+We Thank Saeid Balaneshin, Jan R. Benetka, Heng Ding, Dario Garigliotti, Mehedi Hasan, Indira Kurmantayeva, and Shuo Zhang for their help with creating relevance judgements.
 
 
 ## Contact
