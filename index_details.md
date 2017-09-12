@@ -30,7 +30,7 @@ The following files from [DBpedia 2015-10 dump](http://downloads.dbpedia.org/201
 - All predicate values with URIs are resolved by replacing "_" with space; e.g., the URI `http://dbpedia.org/resource/As_We_May_Think` becomes “as we may think”.
 
  
-### Index fields
+###Index fields
 
 The following fields are used for constructing the index,  following the general approach outlined in [2]. All fields listed below contain unique phrases.
 
