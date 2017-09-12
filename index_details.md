@@ -27,7 +27,7 @@ The following files from [DBpedia 2015-10 dump](http://downloads.dbpedia.org/201
 - Entities without the following predicates are not indexed:
     * `<rdfs:comment>` 
     * `<rdfs:label>` 
-- All predicate values with URIs are resolved by replacing "_" with space; e.g., the URI `http://dbpedia.org/resource/As_We_May_Think` becomes “as we may think”.
+- All predicate values with URIs are resolved by replacing "_" with space; e.g., the URI `http://dbpedia.org/resource/As_We_May_Think` becomes "as we may think".
 
 ### Index fields
 
