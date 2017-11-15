@@ -50,10 +50,10 @@ This repository also contains the **DBpedia-Entity v1** collection, which was bu
 
 ## Baseline rankings
 
-The `runs` folder contains a set of baseline rankings ("runs") in TREC format (the details of theindices used for generating these runs are described [here](index_details.md)).
+The `runs` folder contains a set of baseline rankings ("runs") in TREC format (the details of the indices used for generating these runs are described [here](index_details.md)). 
 
 - `/v1`: The runs related to **DBpedia-Entity v1**, reported in Table 2 of the paper [2].
-- `/v2`: The runs related to **DBpedia-Entity v2**, reported in the table below.  The evaluation metric is NDCG (Normalized Discounted Cumulative Gain) at ranks 10 and 100.  New retrieval systems, evaluated using DBpedia-Entity v2, are supposed to be compared against these results.
+- `/v2`: The runs related to **DBpedia-Entity v2**, reported in the table below.  The evaluation metric is NDCG (Normalized Discounted Cumulative Gain) at ranks 10 and 100.  New retrieval systems, evaluated using DBpedia-Entity v2, are supposed to be compared against these results. Note that all of these runs are generated using the `queries-v2_stopped.txt` file.
 
 <table>
   <thead>
