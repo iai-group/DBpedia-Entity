@@ -186,7 +186,7 @@ The `runs` folder contains a set of baseline rankings ("runs") in TREC format:
 
 ## Citation
 
-If you using this collection, please cite the following paper:
+If you are using this collection, please cite the following paper:
 <pre>
 @inproceedings{Hasibi:2017:DVT,
  author =    {Hasibi, Faegheh and Nikolaev, Fedor and Xiong, Chenyan and Balog, Krisztian and Bratsberg, Svein Erik and Kotov, Alexander and Callan, Jamie},
