@@ -80,8 +80,8 @@ The `runs` folder contains a set of baseline rankings ("runs") in TREC format:
   <tr>
 	<td ><b>BM25</b></td>
 	<td >0.2497</td><td >0.4110</td>
-	<td >0.1828</td><td >0.3612</td>
-	<td >0.0627</td><td >0.3302</td>
+	<td >0.2770</td><td >0.3612</td>
+	<td >0.2199</td><td >0.3302</td>
 	<td >0.2751</td><td >0.3366</td>
 	<td >0.2558</td><td >0.3582</td>
   </tr>
