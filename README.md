@@ -78,8 +78,8 @@ The `runs` folder contains a set of baseline rankings ("runs") in TREC format (t
   <tr>
 	<td markdown="span">**BM25**</td >
 	<td >0.2497</td><td >0.4110</td>
-	<td >0.1828</td><td >0.3612</td>
-	<td >0.0627</td><td >0.3302</td>
+	<td >0.0277</td><td >0.3612</td>
+	<td >0.2199</td><td >0.3302</td>
 	<td >0.2751</td><td >0.3366</td>
 	<td >0.2558</td><td >0.3582</td>
   </tr>
@@ -201,7 +201,7 @@ We Thank Saeid Balaneshin, Jan R. Benetka, Heng Ding, Dario Garigliotti, Mehedi 
 
 ## Contact
 
-In case of questions, feel free to contact <faegheh.hasibi@ntnu.no> or <krisztian.balog@uis.no>.
+In case of questions, feel free to contact <f.hasibi@cs.ru.nl> or <krisztian.balog@uis.no>.
 
 ----------------
 [1] Krisztian Balog and Robert Neumayer. 2013. *"A Test Collection for Entity Search in DBpedia"*, In proceedings of 436th international ACM SIGIR conference on Research and development in Information Retrieval (SIGIR ’13). 737-740.
