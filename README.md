@@ -210,7 +210,7 @@ We thank Saeid Balaneshin, Jan R. Benetka, Heng Ding, Dario Garigliotti, Mehedi 
 
 ## Contact
 
-In case of questions, feel free to contact <faegheh.hasibi@ntnu.no> or <krisztian.balog@uis.no>.
+In case of questions, feel free to contact <f.hasibi@cs.ru.nl> or <krisztian.balog@uis.no>.
 
 ----------------
 [1] Krisztian Balog and Robert Neumayer. 2013. *"A Test Collection for Entity Search in DBpedia"*, In proceedings of 436th international ACM SIGIR conference on Research and development in Information Retrieval (SIGIR ’13). 737-740.
