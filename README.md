@@ -179,7 +179,8 @@ The `runs` folder contains a set of baseline rankings ("runs") in TREC format:
 
 ## Related collections
 
-  - [DBpedia-Entity-CAR](https://github.com/TREMA-UNH/DBpediaV2-entity-CAR): DBpedia-entity queries and qrels projected onto the Wikipedia dump used in [TREC Complex Answer Retrieval v2.1](http://trec-car.cs.unh.edu/datareleases/), a contribtion from TREMA Lab at University of New Hampshire.
+  - [DBpedia-Entity-CAR](https://github.com/TREMA-UNH/DBpediaV2-entity-CAR): DBpedia-Entity v2 collection projected onto the Wikipedia dump used in [TREC Complex Answer Retrieval v2.1](http://trec-car.cs.unh.edu/datareleases/), a contribtion from TREMA Lab at University of New Hampshire.
+
   
   - [Entity summarization](https://github.com/iai-group/DynamicEntitySummarization-DynES): 100 query-entity pairs (evenly selected from the four query subsets), their corresponding entity facts, and their graded judgments with respect to importance, relevance, and utility.
 
